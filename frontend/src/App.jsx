@@ -1,9 +1,13 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div>
-      HELLO Tailwind
+    <div className='mx-4 sm:mx[10%]'>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
     </div>
   )
 }
