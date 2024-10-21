@@ -11,7 +11,7 @@ const Header = () => {
                 <img src={assets.group_profiles} alt="" />
                 <p>Simply browse through extensive list of trusted doctors, <br className='hidden sm:block'/> schedule your appointment hassle-free</p>
             </div>
-            <a className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300' href="#speciality">
+            <a className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300' href="#category">
                 Book Appointment <img src={assets.arrow_icon} alt="" />
             </a>
         </div>
