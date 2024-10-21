@@ -39,14 +39,14 @@ const Navbar = () => {
                         <div className='min-w-48 bg-stone-100 round flex flex-col gap-4 p-4'>
                             <p onClick={()=>navigate('/myprofile')} className='hover:text-black cursor-pointer'>My Profile</p>
                             <p onClick={()=>navigate('/myappointment')} className='hover:text-black cursor-pointer'>My Appointment</p>
-                            <p className='hover:text-black cursor-pointer'>Logout</p>
+                            <p onClick={()=>setToken(false)} className='hover:text-black cursor-pointer'>Logout</p>
                         </div>
                         
                     </div>
                 </div>
                 : <button 
                 onClick={()=> navigate('/login')} 
-                className='bg-danger  px-8 py-3 rounded-full font-light hidden md:block'>
+                className='bg-primary px-8 py-3 rounded-full font-light hidden md:block'>
                     Create Account
             </button>
             }
